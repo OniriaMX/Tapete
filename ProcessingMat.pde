@@ -55,9 +55,7 @@ void draw() {
       beginShape(QUAD_STRIP);
       for (int i=0; i<15; i++) {
           stroke(255);
-          //          print(serialInArray[j*15+i]);
-          //          print(" , ");
-          //currentColor[0][j*15+i] = 
+          
           fill(serialInArray[j*15+i], 0, 0);
           float x = i*width/15;
           float y = j*height/15;
